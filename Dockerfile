@@ -112,4 +112,4 @@ ENV ROD_BROWSER_BIN=/usr/local/bin/cloak-chromium
 
 EXPOSE 18060
 
-CMD sh -c './app -port :${PORT:-18060}'
+CMD ["./app", "-port", ":18060"]
